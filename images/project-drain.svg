@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Drain longitudinal section with invert levels">
+  <rect width="640" height="360" fill="#14233a"/>
+  <g stroke="#22385a" stroke-width="1"><path d="M0 60h640M0 120h640M0 180h640M0 240h640M0 300h640M80 0v360M160 0v360M240 0v360M320 0v360M400 0v360M480 0v360M560 0v360"/></g>
+  <path d="M40 110 L600 140" stroke="#9fb0c6" stroke-width="2"/>
+  <text x="44" y="100" fill="#9fb0c6" font-family="Segoe UI, Arial, sans-serif" font-size="12">Road FRL</text>
+  <path d="M40 200 L600 270" stroke="#c9ced6" stroke-width="6"/>
+  <path d="M40 186 L600 252 L600 268 L40 198Z" fill="#3d8bd9" opacity="0.8"/>
+  <text x="44" y="226" fill="#d8dee7" font-family="Segoe UI, Arial, sans-serif" font-size="12">Drain invert · slope 1 in 500</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#f3f5f8">
+    <g stroke="#e8681a" stroke-dasharray="3 3"><path d="M120 120V210M320 130V235M520 136V260"/></g>
+    <text x="104" y="320">Ch 0+100</text><text x="304" y="320">Ch 0+300</text><text x="504" y="320">Ch 0+500</text>
+    <text x="128" y="160" fill="#e8681a">IL ▼</text><text x="328" y="180" fill="#e8681a">IL ▼</text><text x="528" y="200" fill="#e8681a">IL ▼</text>
+  </g>
+  <rect x="20" y="20" rx="6" width="190" height="30" fill="#e8681a"/>
+  <text x="34" y="40" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">DRAIN · HYDRAULICS</text>
+</svg>

@@ -1,0 +1,10 @@
+# OS / OneDrive files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Local Claude Code settings (agents in .claude/agents are shared on purpose)
+.claude/settings.local.json
+
+# Vercel
+.vercel

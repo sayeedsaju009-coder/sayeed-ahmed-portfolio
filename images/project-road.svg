@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Road with lane markings in perspective">
+  <rect width="640" height="360" fill="#9cc3e4"/>
+  <path d="M0 210 Q160 170 320 195 T640 185 V360 H0Z" fill="#5c8a4a"/>
+  <path d="M0 200 Q120 150 240 175 Q340 140 460 170 Q560 150 640 165 V215 H0Z" fill="#3f6b3a"/>
+  <path d="M260 200 L380 200 L640 360 L0 360 Z" fill="#33363d"/>
+  <path d="M248 200 L262 200 L20 360 L0 360 Z" fill="#c9ced6"/>
+  <path d="M378 200 L392 200 L640 360 L620 360 Z" fill="#c9ced6"/>
+  <g fill="#f3f5f8"><path d="M318 205h4l2 14h-8z"/><path d="M314 235h12l3 26h-18z"/><path d="M308 285h24l5 48h-34z"/></g>
+  <path d="M392 200 L640 330 V360 L640 360 L410 200Z" fill="#5d6773" opacity="0.6"/>
+  <rect x="0" y="0" width="640" height="360" fill="none"/>
+  <rect x="20" y="20" rx="6" width="170" height="30" fill="#14233a" opacity="0.85"/>
+  <text x="34" y="40" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">PACKAGE 03 · ROADS</text>
+</svg>

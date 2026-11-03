@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaikh Sayeed Ahmed | Civil Engineer: Highways & Drainage</title>
+  <meta name="description" content="Shaikh Sayeed Ahmed, freelance civil engineer specialising in highway works, drainage design, QA/QC and NCR management.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav-bar" aria-label="Main">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">SA</span>
+        <span class="brand-text"><span class="brand-name">SHAIKH SAYEED AHMED</span><span class="brand-role">Civil Engineer</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="nav-cta"><a href="contact.html">Hire Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <span class="eyebrow">Freelance Civil Engineer</span>
+          <h1>SHAIKH SAYEED AHMED <span class="role">Highways, Drainage &amp; Quality Control</span></h1>
+          <p class="lead">I help contractors, consultants and departments deliver road and drainage works to specification, with sound designs, clear methodologies and quality records that stand up to review.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="projects.html">View Projects</a>
+            <a class="btn btn-outline" href="contact.html">Hire Me</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="images/hero.svg" alt="Illustration of a road cross-section with pavement layers and a roadside drain" width="640" height="440">
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="stats" aria-label="Key figures">
+        <div class="stat"><div class="stat-value">[Add years]</div><div class="stat-label">Years of experience</div></div>
+        <div class="stat"><div class="stat-value">2</div><div class="stat-label">Road &amp; drain packages in Manipur</div></div>
+        <div class="stat"><div class="stat-value">5</div><div class="stat-label">Methodologies with ITPs</div></div>
+        <div class="stat"><div class="stat-value">MoRTH</div><div class="stat-label">&amp; IRC specifications followed</div></div>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head-row">
+          <div class="section-head">
+            <span class="eyebrow">What I do</span>
+            <h2>Engineering services</h2>
+            <p>Support from design checks to close-out: drainage calculations, site supervision, quality control and documentation.</p>
+          </div>
+          <a class="btn btn-ghost" href="services.html">All services →</a>
+        </div>
+        <div class="grid grid-3" id="services-preview"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head-row">
+          <div class="section-head">
+            <span class="eyebrow">Selected work</span>
+            <h2>Featured projects</h2>
+            <p>Road and drainage works on Public Works Department projects in Manipur.</p>
+          </div>
+          <a class="btn btn-ghost" href="projects.html">All projects →</a>
+        </div>
+        <div class="grid grid-3" id="featured-projects"></div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-inner">
+        <div>
+          <h2>Have a road or drainage project?</h2>
+          <p>Tell me about it, and I'll reply within 1–2 working days.</p>
+        </div>
+        <a class="btn btn-primary" href="contact.html">Start a conversation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-title">SHAIKH SAYEED AHMED</p>
+          <p>Freelance civil engineer for highways, drainage and quality control, based in Manipur, India.</p>
+        </div>
+        <div>
+          <p class="footer-title">Pages</p>
+          <ul>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-title">Contact</p>
+          <ul>
+            <li>[Add email]</li>
+            <li>[Add phone]</li>
+            <li>Manipur, India</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© <span data-year></span> Shaikh Sayeed Ahmed. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Close">×</button>
+    <div class="dialog-content"></div>
+  </dialog>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/chat.js"></script>
+</body>
+</html>

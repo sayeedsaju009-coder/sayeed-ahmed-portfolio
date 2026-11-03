@@ -1,0 +1,71 @@
+{
+  "name": "Portfolio Contact Form — Shaikh Sayeed Ahmed",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "sayeed-portfolio-contact",
+        "responseMode": "responseNode",
+        "options": {
+          "allowedOrigins": "*"
+        }
+      },
+      "id": "b2e1d3c5-0001-4d2b-8a20-webhook00001",
+      "name": "Contact form webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "webhookId": "sayeed-portfolio-contact"
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "dataTableId": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "name": "={{ $json.body.name }}",
+            "email": "={{ $json.body.email }}",
+            "organisation": "={{ $json.body.organisation }}",
+            "service": "={{ $json.body.service }}",
+            "message": "={{ $json.body.message }}",
+            "submitted_at": "={{ $json.body.submittedAt }}"
+          }
+        },
+        "options": {}
+      },
+      "id": "b2e1d3c5-0002-4d2b-8a20-datatable002",
+      "name": "Save to contact_submissions",
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1,
+      "position": [260, 0]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={ \"ok\": true }",
+        "options": {}
+      },
+      "id": "b2e1d3c5-0003-4d2b-8a20-respond00003",
+      "name": "Respond OK",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [520, 0]
+    }
+  ],
+  "connections": {
+    "Contact form webhook": {
+      "main": [[{ "node": "Save to contact_submissions", "type": "main", "index": 0 }]]
+    },
+    "Save to contact_submissions": {
+      "main": [[{ "node": "Respond OK", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

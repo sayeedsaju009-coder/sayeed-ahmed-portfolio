@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e3352"/>
+      <stop offset="1" stop-color="#14233a"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="560" fill="url(#g)"/>
+  <circle cx="240" cy="210" r="88" fill="#3a5274"/>
+  <path d="M80 560 C90 400 170 340 240 340 C310 340 390 400 400 560 Z" fill="#3a5274"/>
+  <!-- safety helmet -->
+  <path d="M146 196 C146 120 334 120 334 196 Z" fill="#e8681a"/>
+  <rect x="134" y="190" width="212" height="18" rx="9" fill="#c9530c"/>
+  <rect x="232" y="128" width="16" height="64" rx="6" fill="#f27c32"/>
+  <text x="240" y="520" text-anchor="middle" fill="#b7c2d1" font-family="Segoe UI, Arial, sans-serif" font-size="18">Replace with your photo</text>
+</svg>

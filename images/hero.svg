@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440" role="img" aria-label="Road cross-section with pavement layers and a roadside drain">
+  <rect width="640" height="440" fill="#1b2c45"/>
+  <g stroke="#2c4366" stroke-width="1">
+    <path d="M0 40h640M0 80h640M0 120h640M0 160h640M0 200h640M0 240h640M0 280h640M0 320h640M0 360h640M0 400h640"/>
+    <path d="M40 0v440M80 0v440M120 0v440M160 0v440M200 0v440M240 0v440M280 0v440M320 0v440M360 0v440M400 0v440M440 0v440M480 0v440M520 0v440M560 0v440M600 0v440"/>
+  </g>
+  <text x="32" y="52" fill="#e8681a" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">TYPICAL CROSS-SECTION</text>
+  <text x="32" y="72" fill="#9fb0c6" font-family="Segoe UI, Arial, sans-serif" font-size="12">Flexible pavement with roadside drain (not to scale)</text>
+  <!-- ground -->
+  <path d="M0 330 L640 330 L640 440 L0 440 Z" fill="#3a3226"/>
+  <!-- layers -->
+  <path d="M60 300 L470 300 L470 330 L60 330 Z" fill="#7d6a4f"/>
+  <path d="M70 282 L460 282 L460 300 L70 300 Z" fill="#9a8c74"/>
+  <path d="M78 270 L452 270 L452 282 L78 282 Z" fill="#3e3e44"/>
+  <path d="M84 262 L446 262 L446 270 L84 270 Z" fill="#26262b"/>
+  <!-- camber line -->
+  <path d="M84 262 L265 254 L446 262" fill="none" stroke="#f3f5f8" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <!-- centre line -->
+  <path d="M265 240 V250" stroke="#e8681a" stroke-width="2"/>
+  <text x="265" y="234" text-anchor="middle" fill="#f3f5f8" font-family="Segoe UI, Arial, sans-serif" font-size="11">CL</text>
+  <!-- drain -->
+  <path d="M500 270 L500 362 L580 362 L580 270" fill="none" stroke="#c9ced6" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M505 340 Q520 333 540 340 T575 340 L575 357 L505 357 Z" fill="#3d8bd9" opacity="0.85"/>
+  <path d="M470 330 L495 330" stroke="#3a3226" stroke-width="0"/>
+  <!-- invert marker -->
+  <path d="M540 357 L540 392" stroke="#e8681a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M532 392 L548 392 L540 380 Z" fill="#e8681a"/>
+  <text x="556" y="396" fill="#f3f5f8" font-family="Segoe UI, Arial, sans-serif" font-size="11">IL</text>
+  <!-- labels -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#d8dee7">
+    <path d="M150 266 L150 150 L180 150" stroke="#9fb0c6" fill="none"/>
+    <text x="184" y="154">BC — Bituminous Concrete</text>
+    <path d="M200 276 L200 172 L230 172" stroke="#9fb0c6" fill="none"/>
+    <text x="234" y="176">DBM — Dense Bituminous Macadam</text>
+    <path d="M250 291 L250 194 L280 194" stroke="#9fb0c6" fill="none"/>
+    <text x="284" y="198">WMM — Wet Mix Macadam</text>
+    <path d="M300 315 L300 216 L330 216" stroke="#9fb0c6" fill="none"/>
+    <text x="334" y="220">GSB — Granular Sub-base</text>
+    <text x="510" y="258">Drain</text>
+    <text x="60" y="352">Subgrade</text>
+  </g>
+  <!-- FRL -->
+  <path d="M84 254 L40 254" stroke="#e8681a" stroke-width="1.5"/>
+  <text x="18" y="250" fill="#e8681a" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">FRL</text>
+</svg>
